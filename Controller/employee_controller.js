@@ -12,7 +12,7 @@ exports.get_api_data = async function(request, response){
         console.log("HTTP-Error: " + api_data_response.status);
       }
     }catch(e){
-        console.log('Error is:');
+        console.log('The error is:');
         console.log(e);
     }
 }
